@@ -1,0 +1,73 @@
+:root {
+  --blue: rgb(37, 54, 144);
+  --gray: rgb(57, 57, 57);
+}
+@font-face {
+  font-family: "Cathye";
+  src: url(media/Catchye.otf);
+}
+@font-face {
+  font-family: "ChampagneAndLimousines";
+  src: url(media/Champagne&Limousines.ttf);
+}
+body {
+  background: url(media/15_FONDO.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.fondo-marmol {
+  background: url(media/14_FOTO_MARMOL_AZUL.png) no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size:cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.banda-azul {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+header img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+button {
+  padding: 10px;
+  margin: 20px 0px;
+}
+h1, h3 {
+  font-family: "Cathye";
+  color: var(--blue);
+}
+h2 {
+  font-family: "ChampagneAndLimousines";
+  font-weight: bold;
+}
+p {
+  font-family: "ChampagneAndLimousines";
+  font-size: 2rem;
+}
+a {
+  text-decoration: none;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.centrados p {
+  text-align: center;
+  align-items: center;
+}
+.vestimenta {
+  display: block;
+}
+
+
+.detalle {
+  place-items: center;
+  place-content: center;
+}
