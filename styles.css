@@ -16,15 +16,16 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  color: var(--gray);
 }
-.fondo-marmol {
+.bg-marbel {
   background: url(media/14_FOTO_MARMOL_AZUL.png) no-repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size:cover;
   -o-background-size: cover;
   background-size: cover;
 }
-.banda-azul {
+.glitter-band {
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -33,41 +34,18 @@ header img {
   width: 100%;
   height: auto;
   object-fit: cover;
+  margin-bottom: 5%;
 }
 button {
   padding: 10px;
   margin: 20px 0px;
-}
-h1, h3 {
-  font-family: "Cathye";
-  color: var(--blue);
-}
-h2 {
-  font-family: "ChampagneAndLimousines";
-  font-weight: bold;
-}
-p {
-  font-family: "ChampagneAndLimousines";
-  font-size: 2rem;
-}
-a {
-  text-decoration: none;
 }
 .center {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.centrados p {
-  text-align: center;
-  align-items: center;
-}
-.vestimenta {
-  display: block;
-}
-
-
-.detalle {
+.detail {
   place-items: center;
   place-content: center;
 }
