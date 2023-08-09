@@ -3,6 +3,18 @@
   --gray: rgb(57, 57, 57);
 }
 @font-face {
+  font-family: 'EdwardianScriptITC';
+  src: url(media/EdwardianScriptITC.ttf);
+}
+@font-face {
+  font-family: 'CalistoMT';
+  src: url(media/CALIST.TTF);
+}
+@font-face {
+  font-family: 'Gabriola';
+  src: url(media/Gabriola.ttf);
+}
+@font-face {
   font-family: 'Cathye';
   src: url(media/Catchye.otf);
 }
@@ -16,7 +28,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-family: 'ChampagneAndLimousines';
+  font-family: 'Gabriola';
   color: var(--gray);
 }
 .bg-marbel {
@@ -31,40 +43,42 @@ body {
   height: 50px;
   object-fit: cover;
 }
-h1, h2 {
-font-family: 'Cathye';
-font-size: 4em;
+/* .samantha-giselle {
+  height: 600px;
+  width: auto;
+} */
+h1 {
+font-family: 'EdwardianScriptITC';
+font-size: 6em;
 color: var(--blue);
 }
 h2 {
-  font-size: 3em;
+  font-family: 'EdwardianScriptITC';
+  font-size: 5em;
+  color: var(--blue);
 }
 h3 {
+font-family:'CalistoMT';
 text-transform: uppercase;
 letter-spacing: -1px;
 font-size: 1.7em;
-font-weight: 600;
+font-weight: 500;
+}
+hr {
+  color: var(--blue);
+  width: 50%;
+    height: 2px;
+    background-color: gray;
+    margin: 20px auto;
 }
 p {
-font-size: 1.7em;
-}
-header img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
+font-size: 2.5em;
 }
 header h1 {
-  font-size: 5em;
   margin: 40px 0 0 0;
 }
-.presentation, .date, .celebracion {
+.date {
   margin: 5% 0;
-}
-.gift-table {
-  margin: 5% 0 0 0;
-}
-.presentation {
-  padding: 0 25%;
 }
 .dress-code {
 padding: 5% 0;
@@ -84,16 +98,18 @@ height: 90px;
 margin: 40px 10px;
 }
 .intro p {
-padding: 0 18%;
+padding: 0 6%;
 margin: 5% 0;
 }
 .presentation p {
-font-size: 2.5em;
-font-weight: 700;
+font-size: 1.5em;
+font-weight: 600;
+}
+.presentation h3 {
+  margin-bottom: 5%;
 }
 .celebracion-detail {
-  font-size: 2em;
-  font-weight: bold;
+  font-size: 2.7em;
   margin-left: 5px;
 }
 .parroquia {
@@ -104,7 +120,11 @@ font-weight: 700;
   padding: 0 5%;
   margin: 0 15px;
 }
+.parroquia p {
+  font-weight: bold;
+}
 .date h2 {
+  font-family: 'Cathye';
   font-size: 4em;
 }
 button {
@@ -135,6 +155,9 @@ justify-content: space-evenly;
 align-items: center;
 margin-top: 5%;
 }
+.btn2 {
+margin-bottom: 5%;
+}
 a {
 text-decoration: none;
 font-family: 'ChampagneAndLimousines';
@@ -148,8 +171,24 @@ color: #FFF;
 .asistencia img {
   margin-bottom: 5px;
 }
+.itinerary {
+  margin: 5% 0 0 0;
+}
+.itinerary h2 {
+  margin-bottom: 5%;
+}
+.itinerary p {
+  font-weight: 300;
+}
+.time {
+  text-align: end;
+}
+.event {
+  text-align: start;
+  padding: 0 5%;
+  margin-bottom: 50px;
+}
 .recepcion p:nth-child(4n) {
-  color: var(--blue);
   font-weight: bold;
 }
 #map1, #map2 {
