@@ -73,7 +73,6 @@ font-size: 1.5rem;
 }
 p {
 font-size: 1.8rem;
-margin: 0;
 }
 a {
   text-decoration: none;
@@ -95,41 +94,16 @@ footer {
   opacity: 0.5;
   margin: 40px 0;
 }
-header h1 {
-  margin: 40px 0 0 0;
-}
 .intro p {
 padding: 0 20%;
-margin: 5% 0;
 line-height: 1;
-}
-.date {
-  margin: 5% 0;
 }
 .date h2 {
   font-family: 'Cathye';
   font-size: 4rem;
 }
-.celebration-detail {
-  font-size: 2.7rem;
-  margin-left: 5px;
-}
 #map1, #map2 {
   display: none;
-}
-/* .parroquia {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: baseline;
-  padding: 0 5%;
-  margin: 0 15px;
-}
-.parroquia p {
-  font-weight: bold;
-} */
-.reception p:nth-child(4n) {
-  font-weight: bold;
 }
 .dress-code {
   padding: 5% 0;
