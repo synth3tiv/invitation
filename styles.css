@@ -3,6 +3,18 @@
   --gray: rgb(57, 57, 57);
 }
 @font-face {
+  font-family: 'EdwardianScriptITC';
+  src: url(media/EdwardianScriptITC.ttf);
+}
+@font-face {
+  font-family: 'CalistoMT';
+  src: url(media/CALIST.TTF);
+}
+@font-face {
+  font-family: 'Gabriola';
+  src: url(media/Gabriola.ttf);
+}
+@font-face {
   font-family: 'Cathye';
   src: url(media/Catchye.otf);
 }
@@ -16,11 +28,11 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-family: 'ChampagneAndLimousines';
+  font-family: 'Gabriola';
   color: var(--gray);
 }
 .bg-marbel {
-  background: url(media/14_FOTO_MARMOL_AZUL.png) no-repeat center fixed;
+  background: url(media/14_FOTO_MARMOL_AZUL.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size:cover;
   -o-background-size: cover;
@@ -31,43 +43,46 @@ body {
   height: 50px;
   object-fit: cover;
 }
-h1, h2 {
-font-family: 'Cathye';
-font-size: 4em;
+.separation-line {
+  width: 100%;
+}
+.line-lotus {
+  place-items: center;
+  place-content: center;
+  padding: 0 5%;
+}
+.samantha-giselle {
+  height: 400px;
+  width: auto;
+}
+h1 {
+font-family: 'EdwardianScriptITC';
+font-size: 6rem;
 color: var(--blue);
 }
 h2 {
-  font-size: 3em;
+  font-family: 'EdwardianScriptITC';
+  font-size: 4rem;
+  color: var(--blue);
 }
 h3 {
+font-family:'CalistoMT';
 text-transform: uppercase;
 letter-spacing: -1px;
-font-size: 1.7em;
-font-weight: 600;
+font-size: 1.5rem;
 }
 p {
-font-size: 1.7em;
+font-size: 1.8rem;
 }
-header img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
+a {
+  text-decoration: none;
+  font-family: 'ChampagneAndLimousines';
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: #FFF;
 }
-header h1 {
-  font-size: 5em;
-  margin: 40px 0 0 0;
-}
-.presentation, .date, .celebracion {
-  margin: 5% 0;
-}
-.gift-table {
-  margin: 5% 0 0 0;
-}
-.presentation {
-  padding: 0 25%;
-}
-.dress-code {
-padding: 5% 0;
+footer {
+  margin-bottom: 5%;
 }
 .center {
   display: flex;
@@ -76,41 +91,48 @@ padding: 5% 0;
 }
 .icon {
   height: 90px;
-  opacity: 0.5;
-  margin: 40px 0;
-}
-.icon-dresscode {
-height: 90px;
-margin: 40px 10px;
 }
 .intro p {
-padding: 0 18%;
-margin: 5% 0;
-}
-.presentation p {
-font-size: 2.5em;
-font-weight: 700;
-}
-.celebracion-detail {
-  font-size: 2em;
-  font-weight: bold;
-  margin-left: 5px;
-}
-.parroquia {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: baseline;
-  padding: 0 5%;
-  margin: 0 15px;
+padding: 0 20%;
+line-height: 1;
 }
 .date h2 {
-  font-size: 4em;
+  font-family: 'Cathye';
+  font-size: 4rem;
+}
+#map1, #map2 {
+  display: none;
+}
+.attendance h2 {
+  margin-top: 4%;
+}
+.attendance img {
+  margin-bottom: 5px;
+}
+.itinerary {
+  margin: 5% 0 0 0;
+}
+.itinerary h2 {
+  margin-bottom: 5%;
+}
+.itinerary p {
+  font-weight: 300;
+}
+.time {
+  text-align: end;
+}
+.event {
+  text-align: start;
+  padding: 0 5%;
+  margin-bottom: 50px;
+}
+.gift-table .icon {
+  margin: 0;
 }
 button {
   font-family: 'ChampagneAndLimousines';
   color: var(--blue);
-  font-size: 1.4em;
+  font-size: 1.4rem;
   font-weight: 1000;
   width: 100px;
   background-color: #FFF;
@@ -125,6 +147,9 @@ button:hover {
   box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.2);
   transform: translateY(8px);
 }
+.btn2 {
+  margin-bottom: 5%;
+}
 .dress-code button {
 background-color: var(--blue);
 width: 250px;
@@ -133,36 +158,5 @@ display: flex;
 flex-direction: row;
 justify-content: space-evenly;
 align-items: center;
-margin-top: 5%;
-}
-a {
-text-decoration: none;
-font-family: 'ChampagneAndLimousines';
-font-size: 1.4rem;
-text-transform: uppercase;
-color: #FFF;
-}
-.asistencia h2 {
-  margin-top: 4%;
-}
-.asistencia img {
-  margin-bottom: 5px;
-}
-.recepcion p:nth-child(4n) {
-  color: var(--blue);
-  font-weight: bold;
-}
-#map1, #map2 {
-  display: none;
-}
-.agradecimiento-detail {
-  place-items: center;
-  place-content: center;
-  padding: 0 5%;
-}
-.gift-table .icon {
-margin: 0;
-}
-footer {
-  margin-bottom: 5%;
+/* margin-top: 5%; */
 }
