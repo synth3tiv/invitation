@@ -32,7 +32,7 @@ body {
   color: var(--gray);
 }
 .bg-marbel {
-  background: url(media/14_FOTO_MARMOL_AZUL.png) no-repeat center fixed;
+  background: url(media/14_FOTO_MARMOL_AZUL.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size:cover;
   -o-background-size: cover;
@@ -91,8 +91,6 @@ footer {
 }
 .icon {
   height: 90px;
-  opacity: 0.5;
-  margin: 40px 0;
 }
 .intro p {
 padding: 0 20%;
@@ -104,13 +102,6 @@ line-height: 1;
 }
 #map1, #map2 {
   display: none;
-}
-.dress-code {
-  padding: 5% 0;
-}
-.icon-dresscode {
-  height: 90px;
-  margin: 40px 10px;
 }
 .attendance h2 {
   margin-top: 4%;
