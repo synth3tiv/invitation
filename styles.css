@@ -28,6 +28,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  font-size: 16px;
   font-family: 'Gabriola';
   color: var(--gray);
 }
@@ -143,20 +144,31 @@ button {
   transition-timing-function: ease;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.24);
 }
-button:hover {
+/* .dress-code a {
+font-family: 'ChampagneAndLimousines';
+background-color: var(--blue);
+} */
+button:hover, .dress-code a:hover {
   box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.2);
   transform: translateY(8px);
 }
 .btn2 {
   margin-bottom: 5%;
 }
-.dress-code button {
-background-color: var(--blue);
-width: 250px;
-height: 45px;
-display: flex;
-flex-direction: row;
-justify-content: space-evenly;
-align-items: center;
-/* margin-top: 5%; */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  .date h2 {
+  font-size: 2rem;
+  }
 }
