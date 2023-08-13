@@ -51,6 +51,11 @@ body {
   height: 400px;
   width: auto;
 }
+header .samantha-giselle, .samantha-giselle {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
 h1 {
 font-family: 'EdwardianScriptITC';
 font-size: 6rem;
@@ -120,7 +125,7 @@ button {
 font-family: 'ChampagneAndLimousines';
 background-color: var(--blue);
 } */
-button:hover, .dress-code a:hover {
+button:hover {
   box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.2);
   transform: translateY(8px);
 }
