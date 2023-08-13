@@ -111,21 +111,7 @@ line-height: 1;
   margin-bottom: 5px;
 }
 .itinerary {
-  margin: 5% 0 0 0;
-}
-.itinerary h2 {
-  margin-bottom: 5%;
-}
-.itinerary p {
-  font-weight: 300;
-}
-.time {
-  text-align: end;
-}
-.event {
-  text-align: start;
-  padding: 0 5%;
-  margin-bottom: 50px;
+  font-family: 'Gabriola';
 }
 .gift-table .icon {
   margin: 0;
