@@ -47,14 +47,14 @@ body {
 .separation-line {
   width: 100%;
 }
-.line-lotus {
-  place-items: center;
-  place-content: center;
-  padding: 0 5%;
-}
 .samantha-giselle {
   height: 400px;
   width: auto;
+}
+header .samantha-giselle, .samantha-giselle {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 h1 {
 font-family: 'EdwardianScriptITC';
@@ -91,7 +91,7 @@ footer {
   align-items: center;
 }
 .icon {
-  height: 90px;
+  height: 70px;
 }
 .intro p {
 padding: 0 20%;
@@ -104,31 +104,8 @@ line-height: 1;
 #map1, #map2 {
   display: none;
 }
-.attendance h2 {
-  margin-top: 4%;
-}
-.attendance img {
-  margin-bottom: 5px;
-}
 .itinerary {
-  margin: 5% 0 0 0;
-}
-.itinerary h2 {
-  margin-bottom: 5%;
-}
-.itinerary p {
-  font-weight: 300;
-}
-.time {
-  text-align: end;
-}
-.event {
-  text-align: start;
-  padding: 0 5%;
-  margin-bottom: 50px;
-}
-.gift-table .icon {
-  margin: 0;
+  font-family: 'Gabriola';
 }
 button {
   font-family: 'ChampagneAndLimousines';
@@ -148,12 +125,9 @@ button {
 font-family: 'ChampagneAndLimousines';
 background-color: var(--blue);
 } */
-button:hover, .dress-code a:hover {
+button:hover {
   box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.2);
   transform: translateY(8px);
-}
-.btn2 {
-  margin-bottom: 5%;
 }
 @media (max-width: 768px) {
   h1 {
@@ -171,4 +145,7 @@ button:hover, .dress-code a:hover {
   .date h2 {
   font-size: 2rem;
   }
+    .icon {
+      height: 55px;
+    }
 }
