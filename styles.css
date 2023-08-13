@@ -47,11 +47,6 @@ body {
 .separation-line {
   width: 100%;
 }
-.line-lotus {
-  place-items: center;
-  place-content: center;
-  padding: 0 5%;
-}
 .samantha-giselle {
   height: 400px;
   width: auto;
