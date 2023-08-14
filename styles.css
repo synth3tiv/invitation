@@ -69,8 +69,7 @@ h2 {
 h3 {
 font-family:'CalistoMT';
 text-transform: uppercase;
-letter-spacing: -1px;
-font-size: 1.5rem;
+font-size: 1.2rem;
 }
 p {
 font-size: 1.8rem;
@@ -81,14 +80,6 @@ a {
   font-size: 1.4rem;
   text-transform: uppercase;
   color: #FFF;
-}
-footer {
-  margin-bottom: 5%;
-}
-.center {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 .icon {
   height: 70px;
@@ -137,15 +128,21 @@ button:hover {
     font-size: 2.5rem;
   }
   h3 {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   p {
     font-size: 1.5rem;
   }
+  .date p {
+    font-size: 1.3rem;
+  }
   .date h2 {
   font-size: 2rem;
   }
-    .icon {
-      height: 55px;
-    }
+  .icon {
+  height: 55px;
+  }
+  .gift-table img {
+  height: 85px;
+  }
 }
