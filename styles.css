@@ -47,32 +47,27 @@ body {
 .separation-line {
   width: 100%;
 }
-.samantha-giselle {
-  height: 400px;
-  width: auto;
-}
-header .samantha-giselle, .samantha-giselle {
+footer .samantha-giselle {
   width: 100%;
   height: auto;
-  object-fit: cover;
 }
 h1 {
-font-family: 'EdwardianScriptITC';
-font-size: 6rem;
-color: var(--blue);
+  font-family: 'EdwardianScriptITC';
+  font-size: 6rem;
+  color: var(--blue);
 }
 h2 {
   font-family: 'EdwardianScriptITC';
-  font-size: 4rem;
+  font-size: 4.5rem;
   color: var(--blue);
 }
 h3 {
-font-family:'CalistoMT';
-text-transform: uppercase;
-font-size: 1.2rem;
+  font-family:'CalistoMT';
+  text-transform: uppercase;
+  font-size: 1.5rem;
 }
 p {
-font-size: 1.8rem;
+  font-size: 1.8rem;
 }
 a {
   text-decoration: none;
@@ -81,68 +76,80 @@ a {
   text-transform: uppercase;
   color: #FFF;
 }
+header h3 {
+font-size: 2.5rem;
+}
+.presentation p {
+font-size: 2.5rem;
+}
+.date h2 {
+font-family: 'Cathye';
+font-size: 4rem;
+}
+.date p {
+font-size: 3rem;
+}
 .icon {
-  height: 70px;
+height: 70px;
+}
+.celebration h2 {
+font-size: 5rem;
 }
 .intro p {
 padding: 0 20%;
 line-height: 1;
 }
-.date h2 {
-  font-family: 'Cathye';
-  font-size: 4rem;
-}
 #map1, #map2 {
-  display: none;
+display: none;
 }
 .itinerary {
-  font-family: 'Gabriola';
-}
-button {
-  font-family: 'ChampagneAndLimousines';
-  color: var(--blue);
-  font-size: 1.4rem;
-  font-weight: 1000;
-  width: 100px;
-  background-color: #FFF;
-  border: none;
-  border-radius: 10px;
-  transition-property: box-shadow, transform;
-  transition-duration: 350ms;
-  transition-timing-function: ease;
-  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.24);
-}
-/* .dress-code a {
-font-family: 'ChampagneAndLimousines';
-background-color: var(--blue);
-} */
-button:hover {
-  box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.2);
-  transform: translateY(8px);
+font-family: 'Gabriola';
 }
 @media (max-width: 768px) {
-  h1 {
-    font-size: 3rem;
+h1 {
+font-size: 3rem;
+}
+h2 {
+font-size: 2.5rem;
+}
+h3 {
+font-size: 0.9rem;
+}
+p {
+font-size: 1.5rem;
+}
+header h3 {
+font-size: 1rem;
+}
+.intro p {
+padding: 0 5%;
+}
+.presentation p {
+font-size: 2.1rem;
+}
+.date p {
+font-size: 1.9rem;
+}
+.date h2 {
+font-size: 2.5rem;
+}
+.celebration h2, .dress-code h2 {
+font-size: 3.5rem;
+}
+.icon {
+height: 55px;
   }
-  h2 {
-    font-size: 2.5rem;
-  }
-  h3 {
-    font-size: 0.9rem;
-  }
-  p {
-    font-size: 1.5rem;
-  }
-  .date p {
-    font-size: 1.3rem;
-  }
-  .date h2 {
-  font-size: 2rem;
-  }
-  .icon {
-  height: 55px;
-  }
-  .gift-table img {
-  height: 85px;
-  }
+.gift-table img {
+height: 85px;
+}
+.bg-marbel {
+background: url(media/14_FOTO_MARMOL_AZUL.png) 25%;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+.itinerary h3 {
+font-size: 1rem;
+}
 }

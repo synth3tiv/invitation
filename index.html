@@ -13,24 +13,23 @@
 
 <body>
   <!-- titulo -->
-  <header>
-    <div class="container text-center">
-      <h1 class="mt-5" data-aos="zoom-in">Samantha Giselle</h1>
-      <h3 class="fw-medium" data-aos="zoom-out">MIS XV AÑOS</h3>
-
-      <!-- <div class="row justify-content-center">
-        <div class="col-4 col-sm-4 col-md-4 col-lg-4">
-          <img src="media/FOTO01.jpg" alt="samantha-giselle" class="img-fluid object-fit-contain">
+  <header class="container-fluid">
+    <div class="text-center">
+      <div class="row justify-content-center">
+        <div class="col">
+          <h1 class="mt-5" data-aos="zoom-in">Samantha Giselle</h1>
+          <h3 class="fw-medium" data-aos="zoom-out">MIS XV AÑOS</h3>
         </div>
-      </div> -->
-
-      <div class="container">
-        <img class="samantha-giselles img-fluid" src="media/FOTO01.jpg" alt="samantha-giselle">
+      </div>
+      <div class="row justify-content-center d-flex align-items-center">
+        <div class="col col-sm-12 col-lg-6">
+          <img class="samantha-giselle object-fit-cover img-fluid" src="media/FOTO01.jpg" alt="samantha-giselle">
+        </div>
       </div>
     </div>
-    <img class="glitter-band" src="media/13_GLITTER_AZUL.png" alt="banda azul">
   </header>
 
+  <img class="glitter-band object-fit-cover" src="media/13_GLITTER_AZUL.png" alt="banda azul">
   <!-- intro -->
   <section class="container intro">
     <div class="text-center">
@@ -100,7 +99,7 @@
 
       <div class="row justify-content-center">
         <div class="col">
-          <p class="mt-2 p-4">Tenemos el honor de invitarlos a celebrar el día:</p>
+          <p class="my-5">Tenemos el honor de invitarlos a celebrar el día:</p>
         </div>
       </div>
 
@@ -115,37 +114,39 @@
 
   <img class="glitter-band" src="media/13_GLITTER_AZUL.png" alt="banda azul">
 
+  <!-- section fotografia -->
+  <section class="container text-center">
+    <div class="row justify-content-center">
+      <div class="col col-lg-12">
+        <img class="samantha-giselle object-fit-cover img-fluid" src="media/FOTO02.png" alt="samantha-giselle">
+      </div>
+    </div>
+  </section>
+
   <!-- celebration -->
-  <section class="container celebration">
+  <section class="container celebration" data-aos="fade-right">
     <div class="text-center">
 
-      <div class="row justify-content-center">
-        <div class="col-4 col-sm-4 col-md-4 col-lg-4">
-          <img src="media/FOTO02.png" alt="samantha-giselle" class="img-fluid object-fit-contain">
-        </div>
-      </div>
-
-      <div class="row justify-content-center">
-        <div class="col-4 col-sm-4 col-md-4 col-lg-4 my-4">
-          <img src="media/02_IGLESIA.png" alt="iglesia" class="icon img-fluid object-fit-contain opacity-75"
-            data-aos="fade-up" data-aos-easing="linear" data-aos-duration="300">
-        </div>
+      <div class="row justify-content-center my-4">
+        <img src="media/02_IGLESIA.png" alt="iglesia" class="icon img-fluid object-fit-contain opacity-75"
+          data-aos="fade-up" data-aos-easing="linear" data-aos-duration="300">
       </div>
 
       <div class="row justify-content-center">
         <div class="col">
           <h3 class="fw-medium px-4" data-aos="zoom-in">CELEBRACIÓN</h3>
-          <h2>Ceremonia Acción de Gracias</h2>
-          <p class="fw-semibold px-4">Parroquia De Nuestra Señora De Guadalupe</p>
+          <h2 class="my-3" data-aos="zoom-in">Ceremonia <br> Acción de Gracias</h2>
+          <p class="fw-semibold px-4">Parroquia de Nuestra Señora de Guadalupe</p>
           <p class="px-4">17:00 hrs.</p>
-          <p class="px-4">Av. Orquídeas Mz. 047, Col. Villa de las Flores San Francisco Coacalco, Méx.</p>
+          <p class="px-4">Av. Orquídeas Mz. 047, Col. Villa de las Flores San Francisco Coacalco,
+            Méx.</p>
         </div>
       </div>
 
       <div class="row justify-content-center">
         <div class="col col-lg-6 px-4 mb-4">
           <div id="map1">
-            <iframe class="container object-fit-lg-cover"
+            <iframe class="object-fit-lg-cover"
               src="
               https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3757.37794973029!2d-99.09890062488962!3d19.653874533577383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f389560891e1%3A0x7dc0b301ec90e105!2sParroquia%20de%20Nuestra%20Se%C3%B1ora%20de%20Guadalupe!5e0!3m2!1ses!2smx!4v1691370796434!5m2!1ses!2smx"
               width="auto" height="300" style="border:0; margin-bottom: 5%" allow="fullscreen" loading="lazy"
@@ -159,11 +160,14 @@
     </div>
   </section>
 
-  <div class="row justify-content-center">
-    <div class="col-6 col-sm-6 col-md-4 col-lg-2">
-      <img src="media/10_LINEA.png" alt="linea de separacion" class="separation-line img-fluid object-fit-contain">
+  <section class="container separation-line">
+    <div class="row justify-content-center">
+      <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+        <img src="media/10_LINEA.png" alt="linea de separacion" class="separation-line img-fluid object-fit-contain">
+      </div>
     </div>
-  </div>
+
+  </section>
 
   <!-- reception -->
   <section class="container reception">
@@ -176,42 +180,97 @@
         </div>
       </div>
 
-      <div class="row justify-content-md-center">
+      <div class="row justify-content-center">
         <div class="col px-4">
           <h3 data-aos="zoom-in">RECEPCIÓN</h3>
-          <h2>Eventos Sociales Barrera</h2>
-          <p class="fw-semibold">“GRAND SALON"</p>
-          <p>A partir de las 18:30 hrs.</p>
-          <p>Av. Carlos Hank Gonzáles 11, Coacalco San Francisco Coacalco, Méx.</p>
+          <h2 data-aos="zoom-in">Eventos Sociales Barrera</h2>
+          <p class="fw-semibold" data-aos="fade-left">“Grand Salón"</p>
+          <p data-aos="fade-left">A partir de las 18:30 hrs.</p>
+          <p data-aos="fade-left">Av. Carlos Hank Gonzáles 11, Coacalco San Francisco Coacalco, Méx.</p>
         </div>
       </div>
 
       <div class="row justify-content-md-center">
         <div class="col col-lg-6 px-4 mb-5">
           <div id="map2">
-            <iframe class="container object-fit-lg-cover"
+            <iframe class="object-fit-lg-cover"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3757.9935986485743!2d-99.1062863248902!3d19.627571434425736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f547ff4e4d51%3A0x68567d8c94361f22!2sEventos%20Sociales%20Barrera!5e0!3m2!1ses!2smx!4v1691371330511!5m2!1ses!2smx"
               width="auto" height="300" style="border:0; margin-bottom: 5%;" allow="fullscreen" loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
-          <img data-aos="fade-up" onclick='toggleMap("map1")' form="map2" class="img-fluid icon"
+          <img data-aos="fade-up" onclick='toggleMap("map2")' form="map2" class="img-fluid icon"
             src="media/11_BOTON_VER_MAPA.png" alt="Ver mapa">
         </div>
       </div>
-
+      <!--
       <div class="row justify-content-center">
-        <div class="col-4 col-sm-4 col-md-4 col-lg-4">
-          <img src="media/FOTO03.jpg" alt="samantha-giselle" class="img-fluid object-fit-lg-contain">
+        <div class="col col-12 col-sm-8 col-md-6 col-lg-6">
+          <img data-aos="fade-down" src="media/FOTO03.jpg" alt="samantha-giselle"
+            class="img-fluid object-fit-lg-contain">
         </div>
-      </div>
+      </div> -->
 
+    </div>
+  </section>
+
+  <section class="container text-center">
+    <div class="row justify-content-center">
+      <div class="col col-lg-12">
+        <img class="samantha-giselle object-fit-cover img-fluid" src="media/FOTO03.jpg" alt="samantha-giselle">
+      </div>
     </div>
   </section>
 
   <img class="glitter-band" src="media/13_GLITTER_AZUL.png" alt="banda azul">
 
   <!-- dress code -->
-  <section class="bg-marbel dress-code" data-aos="fade-right">
+  <!-- <section class="container-fluid bg-marbel dress-code" data-aos="fade-right">
+    <div class="text-center">
+      <h2 class="mt-5">codigo de vestimenta</h2>
+      <div class="row">
+
+        <div class="my-4 col-12 col-lg-12">
+          <img class="icon" src="media/03_TRAJE.png" alt="traje">
+          <img class="icon" src="media/04_VESTIDO.png" alt="vestido">
+        </div>
+
+        <div class="col-12 col-lg-12">
+          <h3 data-aos="zoom-in">FORMAL</h3>
+        </div>
+
+        <div class="col-12 col-lg-12">
+          <p class="my-4 px-4">No color azul, ni color plateado, estos colores están reservados para la quinceañera.
+            <br>No gorras, pants, sudaderas ni mezclilla.
+          </p>
+        </div>
+
+        <div class="col-12 col-lg-12">
+          <img src="media/10_LINEA.png" class="img-fluid" alt="">
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <h2>confirmacion de asistencia</h2>
+
+        <div class="col-12 col-lg-12">
+          <p class="mt-4 px-4">¡Me encantaría contar con su presencia!</p>
+        </div>
+
+        <div class="col-12 col-lg-12">
+          <a target="_blank"
+            href="https://api.whatsapp.com/send?phone=525527453673&text=Confirmo%20mi%20asistencia%20para%20la%20celebraci%C3%B3n%20de%20Samantha%20Giselle">
+            <img data-aos="fade-up" data-aos-easing="linear" data-aos-duration="300" class="img-fluid"
+              src="media/11_BOTON_CONFIRMAR.png" alt="Boton confirmar asistencia">
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </section> -->
+
+
+  <section class="container-fluid bg-marbel" data-aos="fade-right">
     <div class="text-center">
       <div class="row justify-content-center">
         <div class="col">
@@ -247,18 +306,9 @@
           <p class="mt-4 px-4">¡Me encantaría contar con su presencia!</p>
         </div>
 
-        <!-- <div class="container justify-content-center d-flex align-items-center mb-5">
-          <a class="btn btn-primary fw-semibold" target="_blank"
-            href="https://api.whatsapp.com/send?phone=525534198070&text=Confirmo%20mi%20asistencia%20para%20la%20celebraci%C3%B3n%20de%20Samantha%20Giselle"
-            role="button">
-            CONFIRMA AQUÍ
-            <img class="img-fluid" src="media/17_checkmark.png" alt="check-mark">
-          </a>
-        </div> -->
-
-        <div class="container mb-5">
+        <div class="mb-5">
           <a target="_blank"
-            href="https://api.whatsapp.com/send?phone=525534198070&text=Confirmo%20mi%20asistencia%20para%20la%20celebraci%C3%B3n%20de%20Samantha%20Giselle">
+            href="https://api.whatsapp.com/send?phone=525527453673&text=Confirmo%20mi%20asistencia%20para%20la%20celebraci%C3%B3n%20de%20Samantha%20Giselle">
             <img data-aos="fade-up" data-aos-easing="linear" data-aos-duration="300" class="img-fluid"
               src="media/11_BOTON_CONFIRMAR.png" alt="Boton confirmar asistencia">
           </a>
@@ -271,17 +321,17 @@
   <img class="glitter-band" src="media/13_GLITTER_AZUL.png" alt="banda azul">
 
   <!-- itinerario -->
-  <section class="itinerary">
-    <div class="container text-center px-4">
-      <h2 class="my-5">Itinerario</H2>
+  <section class="container-fluid itinerary">
+    <div class="text-center">
+      <h2 data-aos="zoom-in" class="my-5">Itinerario</H2>
       <div class="row gy-5">
-        <div class="col-4 col-lg-5">
+        <div class="col-4 col-lg-5 ">
           <h3 class="fw-semibold text-end" data-aos="fade-left">17:00 HRS.</h3>
         </div>
         <div class="col-8 col-lg-7">
           <h3 class="fw-semibold text-start" data-aos="fade-left">CEREMONIA DE ACCIÓN DE
             GRACIAS</h3>
-          <p class="text-start" data-aos="fade-left">Parroquia Nuestra Señora de Guadalupe</p>
+          <p class="text-start" data-aos="fade-left">Parroquia de Nuestra Señora de Guadalupe</p>
         </div>
         <div class="col-4 col-lg-5">
           <h3 class="fw-semibold text-end" data-aos="fade-left">18:00 HRS.</h3>
@@ -302,8 +352,8 @@
   </section>
 
   <!-- line-lotus -->
-  <section class="line-lotus">
-    <div class="container">
+  <section class="container-fluid line-lotus">
+    <div class="">
       <div class="row justify-content-center">
         <div class="col-4 col-sm-4 col-md-4 col-lg-4 d-flex align-items-center">
           <img class="img-fluid" src="media/10_LINEA.png" alt="linea de separacion">
@@ -319,14 +369,14 @@
   </section>
 
   <!-- mesa de regalos -->
-  <section class="gift-table">
-    <div class="container text-center">
-      <h2>Mesa de Regalos</h2>
+  <section class="container-fluid gift-table mb-5">
+    <div class="text-center">
+      <h2 data-aos="zoom-in">Mesa de Regalos</h2>
       <p class="px-4" data-aos="fade-up">¡Para mi lo más importante es compartir este momento juntos!.
         <br>Pero si deseas tener un detalle puedes hacerlo por este medio.
       </p>
 
-      <div class="container my-4">
+      <div class="my-4">
         <div class="row justify-content-center">
           <div class="col col-lg-3">
             <a target="_blank" href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/51269745">
@@ -343,10 +393,9 @@
     </div>
   </section>
 
-
-  <footer>
-    <div class="container justify-content-center text-center mb-4">
-      <img class="samantha-giselle img-fluid" src="media/FOTO04.jpg" alt="samantha-giselle">
+  <footer class="container-fluid">
+    <div class="text-center mb-4">
+      <img class="samantha-giselle img-fluid object-fit-cover" src="media/Foto04_1920x1080.jpg" alt="samantha-giselle">
       <h1 class="name" data-aos="zoom-in">Samantha Giselle</h1>
       <p class="mb-3">¡Gracias por ser parte de este gran día!</p>
     </div>
