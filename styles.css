@@ -31,6 +31,7 @@ body {
   font-size: 16px;
   font-family: 'Gabriola';
   color: var(--gray);
+  /* overflow-x: hidden; */
 }
 .bg-marbel {
   background: url(media/14_FOTO_MARMOL_AZUL.png) no-repeat center center fixed;
@@ -46,6 +47,14 @@ body {
 }
 .separation-line {
   width: 100%;
+}
+.tittle .samantha-giselle {
+  height: 100%;
+  width: auto;
+}
+.samantha-giselle {
+  height: 588px;
+  width: auto;
 }
 footer .samantha-giselle {
   width: 100%;
