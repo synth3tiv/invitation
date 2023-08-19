@@ -2,8 +2,8 @@
   --blue: rgb(37, 54, 144);
   --gray: rgb(57, 57, 57);
 }
-html {
-overflow-x: hidden;
+body>div {
+  overflow-x: hidden;
 }
 @font-face {
   font-family: 'EdwardianScriptITC';
