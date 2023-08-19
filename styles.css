@@ -1,3 +1,6 @@
+* {
+  /* border: solid 2px green; */
+}
 :root {
   --blue: rgb(37, 54, 144);
   --gray: rgb(57, 57, 57);
@@ -31,7 +34,6 @@ body {
   font-size: 16px;
   font-family: 'Gabriola';
   color: var(--gray);
-  /* overflow-x: hidden; */
 }
 .bg-marbel {
   background: url(media/14_FOTO_MARMOL_AZUL.png) no-repeat center center fixed;
@@ -48,12 +50,8 @@ body {
 .separation-line {
   width: 100%;
 }
-.tittle .samantha-giselle {
-  height: 100%;
-  width: auto;
-}
-.samantha-giselle {
-  height: 588px;
+.tittle .samantha-giselle, .samantha-giselle {
+  height: 488px;
   width: auto;
 }
 footer .samantha-giselle {
@@ -62,7 +60,7 @@ footer .samantha-giselle {
 }
 h1 {
   font-family: 'EdwardianScriptITC';
-  font-size: 6rem;
+  font-size: 7rem;
   color: var(--blue);
 }
 h2 {
@@ -87,6 +85,7 @@ a {
 }
 header h3 {
 font-size: 2.5rem;
+font-weight: 800;
 }
 .presentation p {
 font-size: 2.5rem;
@@ -108,57 +107,62 @@ font-size: 5rem;
 padding: 0 20%;
 line-height: 1;
 }
-#map1, #map2 {
-display: none;
-}
 .itinerary {
 font-family: 'Gabriola';
 }
-@media (max-width: 768px) {
-h1 {
-font-size: 3rem;
-}
-h2 {
-font-size: 2.5rem;
-}
-h3 {
-font-size: 0.9rem;
-}
-p {
-font-size: 1.5rem;
-}
-header h3 {
-font-size: 1rem;
-}
-.intro p {
-padding: 0 5%;
-}
-.presentation p {
-font-size: 2.1rem;
-}
-.date p {
-font-size: 1.9rem;
-}
-.date h2 {
-font-size: 2.5rem;
-}
-.celebration h2, .dress-code h2 {
-font-size: 3.5rem;
-}
-.icon {
-height: 55px;
+@media (max-width: 992px) {
+  h1 {
+  font-size: 3rem;
   }
-.gift-table img {
-height: 85px;
-}
-.bg-marbel {
-background: url(media/14_FOTO_MARMOL_AZUL.png) 25%;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-}
-.itinerary h3 {
-font-size: 1rem;
-}
+  h2 {
+  font-size: 3.5rem;
+  }
+  h3 {
+  font-size: 0.9rem;
+  }
+  p {
+  font-size: 1.5rem;
+  }
+  header h3 {
+  font-size: 1rem;
+  }
+    .tittle .samantha-giselle,
+    .samantha-giselle {
+      height: 388px;
+      width: auto;
+    }
+  .intro p {
+  padding: 0 5%;
+  }
+  .presentation p {
+  font-size: 2.1rem;
+  }
+  .date p {
+  font-size: 1.9rem;
+  }
+  .date h2 {
+  font-size: 2.5rem;
+  }
+  .celebration h2, .dress-code h2 {
+  font-size: 3.5rem;
+  }
+  .reception h2 {
+    font-size: 2.5rem;
+  }
+  .icon {
+  height: 55px;
+  }
+  .gift-table img {
+  height: 85px;
+  }
+  .bg-marbel {
+  background: url(media/14_FOTO_MARMOL_AZUL.png) 25%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+  .itinerary h3 {
+  font-size: 1rem;
+  }
 }
