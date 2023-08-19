@@ -1,11 +1,11 @@
 function toggleMap (id) {
   let div = document.getElementById(id);
 
-  if (div.style.display == 'none') {
-    div.style.display = 'block';
+  if (div.hidden) {
+    div.hidden = false;
   }
   else {
-    div.style.display = 'none';
+    div.hidden = true;
   }
 }
 
